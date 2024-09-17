@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8c1dd;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contain{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 10px 10px 5px lightslategrey;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.birthday{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+li{
+    display:flex;
+    align-items: center;
+    margin-top: 5px;
+}
+div{
+    text-align: left;
+    background-color: aliceblue;
+    width:  400px;
+    border-radius: 12px;
+}
+p{
+    font-weight: 900;
+}
+
+span{
+    font-size: 12px;
+    color: grey;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: purple;
+    transition: 0.3s;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    color: #333;
+    transform: scale(1.1)
+}
